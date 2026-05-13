@@ -41,8 +41,8 @@ excel:
 # 文心智能体配置
 agent:
   cookie_file: "baiduck.yaml"    # Cookie 文件路径
-  dataset_id: "702225"           # 数据集 ID
-  file_id: "5291609"             # 文件 ID
+  dataset_id: "你的知识库id"           # 知识库 ID
+  file_id: "你的文件id"             # 文件 ID
   api_url: "https://agents.baidu.com/lingjing/dataset/text/edit/table"
 
 # 网络请求配置
