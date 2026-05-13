@@ -9,19 +9,14 @@ excel:
 
 # 百度BOS配置
 bos:
-  access_key_id: "ALTAKa07dKTYof7Mh8jhNDOord"
-  secret_access_key: "2ea1332f6031450cbdbf5a1fcf0ed51a"
-  bucket_name: "pic888"
-  endpoint: "bj.bcebos.com"
-  path_prefix: "duanju/"   # BOS存储路径前缀
   temp_folder: "temp_images"
   target_format: "JPEG"    # 图片转换格式: JPEG, PNG, GIF
 
 # 百度文心智能体配置
 agent:
   cookie_file: "baiduck.yaml"
-  dataset_id: "702225"
-  file_id: "5291609"
+  dataset_id: "你的知识库id"
+  file_id: "你的id"
   api_url: "https://agents.baidu.com/lingjing/dataset/text/edit/table"
 
 # 网络请求配置
